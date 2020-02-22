@@ -2,8 +2,9 @@
 - [x] Code smell: POST test is too long?
 - [x] Display multiple items in the table
 - [x] Clean up after FT runs
-- [ ] Support more than one list
+- [x] Support more than one list
 - [x] Adjust model so that items are associated with different lists
-- [ ] Add unique URLs for each list
+- [x] Add unique URLs for each list
 - [x] Add a URL for creating a new list via POST
-- [ ] Add URLs for adding a new item to an existing list via POST
+- [x] Add URLs for adding a new item to an existing list via POST
+- [ ] Refactor away some duplication in urls.py
