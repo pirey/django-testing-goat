@@ -119,6 +119,11 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # She notices the input box is nicely centered
         inputbox = self.browser.find_element_by_id('id_new_item')
+
+        # can be slow when load static files on staging server
+        if os.environ.get('STAGING_SERVER'):
+            time.sleep(3)
+
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2, 512, delta=10)
 
