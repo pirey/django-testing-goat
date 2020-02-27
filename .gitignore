@@ -113,3 +113,4 @@ dmypy.json
 geckodriver.log
 /static
 .env
+.venv
