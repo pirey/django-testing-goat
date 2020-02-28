@@ -10,4 +10,4 @@
 - [x] Refactor away some duplication in urls.py
 - [x] Remove hardcoded URLs from views.py
 - [x] Remove hardcoded URL from forms in list.html and home.html
-- [ ] Remove duplication of validation logic in views
+- [x] Remove duplication of validation logic in views
