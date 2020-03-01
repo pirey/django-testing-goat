@@ -11,3 +11,4 @@
 - [x] Remove hardcoded URLs from views.py
 - [x] Remove hardcoded URL from forms in list.html and home.html
 - [x] Remove duplication of validation logic in views
+- [ ] Clean up wait_for stuff in base.py
